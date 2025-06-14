@@ -16,5 +16,5 @@ The original Strava export was poorly formatted and too time-consuming to clean.
 ## Links
 
 - [GeoPandas](https://geopandas.org/)
-- [PySAL – Getis-Ord G\_Local](https://pysal.org/esda/generated/esda.getisord.G_Local.html)
-- [Folium – HeatMap](https://python-visualization.github.io/folium/plugins.html#folium.plugins.HeatMap)
+- [PySAL - Getis-Ord](https://pysal.org/esda/generated/esda.G_Local.html)
+- [Folium - HeatMap](https://python-visualization.github.io/folium/latest/index.html)
