@@ -1,5 +1,21 @@
 """
-reusable geospatial functions for gps activity data with (synthetic data) columns: location, activity_type, duration_min, lat, lon
+
+This .py file contains reusable geospatial functions for analyzing GPS-based activity data,
+such as Strava-style points collected from walking, running, or cycling!
+
+The dataset is expected to contain the columns: location, activity_type (e.g., walk, ride), duration_min, lat, lon
+
+Functions include:
+- Loading + cleaning the data as a geo dataframe
+- Tagging activities based on duration
+- Filtering by activity type
+- Creating buffer zones
+- Generating activity density using KDE
+- Creating a fishnet grid and counting points
+- Summarizing activity duration statistics by type
+
+All spatial operations assume data is located in Salzburg, Austria (EPSG:32633 for UTM projection)
+
 
 """
 
